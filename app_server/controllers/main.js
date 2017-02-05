@@ -1,0 +1,4 @@
+/* GET home page. */
+module.exports.index = function(request, response) {
+  response.render('index', {title: 'Express'});
+};
