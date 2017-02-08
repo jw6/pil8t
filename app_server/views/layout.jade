@@ -6,7 +6,7 @@ html
     link(rel='stylesheet', href='/bootstrap/css/amelia.bootstrap.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    .navbar.navbra-default.navbar-fixed-top
+    .navbar.navbar-default.navbar-fixed-top
       .container
         .navbar-header
           a.navbar-brand(href='/') Pil8t-flyhigh
@@ -18,7 +18,13 @@ html
             ul.nav.navbar-nav
               li
                 a(href='/about/') About
-    block content
+      .container
+        block content
+
+        footer
+          .row
+            .col-xs-12
+              small &copy; Jay Wang 2017
 
     script(src='/javascripts/jquery-3.1.1.min.js')
     script(src='/bootstrap/js/bootstrap.min.js')
