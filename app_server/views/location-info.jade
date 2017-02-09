@@ -1,0 +1,102 @@
+extends layout
+
+block content
+  .row-page-header
+    .col-lg-12
+      h1 Gainesville Regional Airport
+  .row
+    .col-xs-12.col-md9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+        p.address 3800 NE 39th Ave, Gainesville, FL 32609
+        .panel.panel-primary
+          .panel-heading
+            h2.panel-title Terminal Hours
+          .panel-body
+            p Monday - Sunday : 3:30am - 12:30am
+        .panel.panel-primary
+          .panel-heading
+            h2.panel-title Facilities
+              .panel-body
+                span.label.label-default
+                  span.glyphicon.glyphicon-ok
+                  | &nbsp;
+                | &nbsp;
+                span.label.label-default
+                  span.glyphicon.glyphicon-ok
+                  | &nbsp;
+                | &nbsp;
+                span.label.label-default
+                  span.glyphicon.glyphicon-ok
+                  | &nbsp;
+                | &nbsp;
+    .col-xs-12.col-sm-6.location-map
+      .panel.panel-primary
+        .panel-heading
+          h2.panel-title Location map
+        .panel-body
+          img.img-responsive.img-rounded(src='https://maps.googleapis.com/maps/api/staticmap?center=gainesville+airport&zoom=13&scale=false&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7Cgainesville+airport')
+  .row
+    .col-xs-12
+      .panel.panel-primary.review-panel
+        .panel-heading
+          a.btn.btn.default.pull-right(href='/location/review/new') Add review
+          h2.panel-title User reviews
+        .panel-body.review-container
+          .row
+            .review
+              .well.well-sm.review-header
+                span.rating
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                span.reviewAuthor Jay Wang
+                small.reviewTimestamp Feb 8 2017
+              .col-xs-12
+                P A great airport
+          .row
+            .review
+              .well.well-sm.review.header
+                span.rating
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star
+                  span.glyphicon.glyphicon-star-empty
+                span.reviewAuthor Simon John
+                small.reviewTimestamp Feb 7 2016
+              .col-xs-12
+                P It's a small airport
+  .col-xs-12.col-md-3
+    p.lead Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lorem ac nisi dignissim accumsan.
+    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
+     lorem ac nisi dignissim accumsan.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

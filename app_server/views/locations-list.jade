@@ -3,7 +3,7 @@ extends layout
 block content
   #banner.page-header
     .row
-      .col-lg-6
+      .col-lg-12
         h1 Pil8t
           small &nbsp; Nearby airport for Pil8t
   .row
@@ -11,20 +11,67 @@ block content
       .row.list-group
         .col-xs-12.list-group-item
           h4
-            a(href="location") Gainesville Reginal Airport
-          small &nbsp;
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star
-            span.glyphicon.glyphicon-star-empty
-          span.badge.pull-right.badge-default 5.3 miles
-        p.address 3800 NE 39th Ave, Gainesville, FL 32609
-        p
-          span.label.label-info Phone: 352-373-0249
-          | &nbsp;
-          span.label.label-info Visit:flygainesville.com
-          | &nbsp;
+            a(href="/location") Gainesville Regional Airport
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star-empty
+            span.badge.pull-right.badge-default 5.3 miles
+          p.address 3800 NE 39th Ave, Gainesville, FL 32609
+          p
+            span.btn.btn-info Phone: 352-373-0249
+            | &nbsp;
+            span.btn.btn-info Code: GNV
+            | &nbsp;
+            span.btn.btn-info Elevation: 151'
+            | &nbsp;
+            span.btn.btn-info Visit: https://www.flygainesville.com
+            | &nbsp;
+        .row.list-group
+        .col-xs-12.list-group-item
+          h4
+            a(href="/location") Orlando International Airport
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+            span.badge.pull-right.badge-default 173 miles
+          p.address 1 Jeff Fuqua Blvd, Orlando, FL 32827
+          p
+            span.btn.btn-info Phone: 407-824-2001
+            | &nbsp;
+            span.btn.btn-info Code: MCO
+            | &nbsp;
+            span.btn.btn-info Elevation: 96'
+            | &nbsp;
+            span.btn.btn-info Visit: https://www.orlandoairports.net/
+            | &nbsp;
+        .row.list-group
+        .col-xs-12.list-group-item
+          h4
+            a(href="/location") Orlando International Airport
+            small &nbsp;
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+              span.glyphicon.glyphicon-star
+            span.badge.pull-right.badge-default 152 miles
+          p.address 2400 Yankee Clipper Dr, Jacksonville, FL 32218
+          p
+            span.btn.btn-info Phone: 904-741-4902
+            | &nbsp;
+            span.btn.btn-info Code: JAX
+            | &nbsp;
+            span.btn.btn-info Elevation: 30‘
+            | &nbsp;
+            span.btn.btn-info Visit: https://www.flyjacksonville.com/
+            | &nbsp;
     .col-xs-12.col-sm-4
-      p.lead Using Pil8t to find a close airport that near your location
+      p.lead Using Pil8t to find a close airport that near your location with updated weather data
+
 

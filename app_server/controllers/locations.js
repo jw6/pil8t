@@ -5,7 +5,7 @@ module.exports.homelist = function(request, response) {
 
 /* GET location info page. */
 module.exports.locationInfo = function(request, response) {
-  response.render('index', {title: 'Location Information'});
+  response.render('location-info', {title: 'Location Info'});
 };
 
 /* GET Add review page. */
