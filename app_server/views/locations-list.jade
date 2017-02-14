@@ -3,9 +3,9 @@ extends layout
 block content
   #banner.page-header
     .row
-      .col-lg-12
-        h1 Pil8t
-          small &nbsp; Nearby airport for Pil8t
+      .col-lg-6
+        h1=pageHeader.title
+          small &nbsp; #{pageHeader.strapline}
   .row
     .col-xs-12.col-sm-8
       .row.list-group

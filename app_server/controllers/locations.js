@@ -1,6 +1,12 @@
 /* GET home page. */
 module.exports.homelist = function(request, response) {
-  response.render('locations-list', { title: 'Home' });
+  response.render('locations-list', {
+    title: 'Pil8t - Help you get the newest weather data',
+    pageHeader: {
+      title: 'Pil8t',
+      strapline: 'Get you to the place!'
+    }
+  });
 };
 
 /* GET location info page. */
